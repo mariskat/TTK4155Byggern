@@ -1,0 +1,11 @@
+var searchData=
+[
+  ['pid_5fcalculate_5fcontrol_5fvariable',['PID_calculate_control_variable',['../_p_i_d_8c.html#a6bc7a9178924dcfc7ed611af9babb151',1,'PID_calculate_control_variable(uint8_t reference_value, uint8_t process_value, PID *pid):&#160;PID.c'],['../_p_i_d_8h.html#a6bc7a9178924dcfc7ed611af9babb151',1,'PID_calculate_control_variable(uint8_t reference_value, uint8_t process_value, PID *pid):&#160;PID.c']]],
+  ['pid_5fcontroller',['PID_controller',['../_p_i_d_8c.html#acb26f8e7367479d777467ddec4309e7e',1,'PID_controller(message msg, PID *pid):&#160;PID.c'],['../_p_i_d_8h.html#acb26f8e7367479d777467ddec4309e7e',1,'PID_controller(message msg, PID *pid):&#160;PID.c']]],
+  ['pid_5finit',['PID_init',['../_p_i_d_8c.html#a2d8ce1b14f48c24d92d907377a09551e',1,'PID_init(uint8_t p_factor, uint8_t i_factor, uint8_t d_factor, PID *pid):&#160;PID.c'],['../_p_i_d_8h.html#a2d8ce1b14f48c24d92d907377a09551e',1,'PID_init(uint8_t p_factor, uint8_t i_factor, uint8_t d_factor, PID *pid):&#160;PID.c']]],
+  ['play_5fgame',['play_game',['../_p_l_a_y___g_a_m_e_8c.html#a191e479e7bcd63ad44a072e0b41a9a31',1,'play_game(void):&#160;PLAY_GAME.c'],['../_p_l_a_y___g_a_m_e_8h.html#a191e479e7bcd63ad44a072e0b41a9a31',1,'play_game(void):&#160;PLAY_GAME.c']]],
+  ['play_5fgame_5finitialize',['play_game_initialize',['../_p_l_a_y___g_a_m_e_8c.html#a7899eb4e043c810c434bc5a183cce618',1,'play_game_initialize(void):&#160;PLAY_GAME.c'],['../_p_l_a_y___g_a_m_e_8h.html#a7899eb4e043c810c434bc5a183cce618',1,'play_game_initialize(void):&#160;PLAY_GAME.c']]],
+  ['pwm_5finit',['PWM_init',['../_p_w_m_8c.html#aadae3fe77e36cbf9643a22eeb99fb01e',1,'PWM_init(void):&#160;PWM.c'],['../_p_w_m_8h.html#aadae3fe77e36cbf9643a22eeb99fb01e',1,'PWM_init(void):&#160;PWM.c']]],
+  ['pwm_5fjoystick_5fto_5fduty_5fcycle',['PWM_joystick_to_duty_cycle',['../_p_w_m_8c.html#aead28b66c3621dfbb45e475505ac989f',1,'PWM_joystick_to_duty_cycle(message position):&#160;PWM.c'],['../_p_w_m_8h.html#aead28b66c3621dfbb45e475505ac989f',1,'PWM_joystick_to_duty_cycle(message position):&#160;PWM.c']]],
+  ['pwm_5fset_5fduty_5fcycle',['PWM_set_duty_cycle',['../_p_w_m_8c.html#a1a0a6439d30a3a3cb65c523f0418ed93',1,'PWM_set_duty_cycle(double duty_cycle):&#160;PWM.c'],['../_p_w_m_8h.html#a1a0a6439d30a3a3cb65c523f0418ed93',1,'PWM_set_duty_cycle(double duty_cycle):&#160;PWM.c']]]
+];

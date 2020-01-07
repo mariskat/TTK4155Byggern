@@ -1,0 +1,35 @@
+digraph "Node2/CAN.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Node2/CAN.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Node2/CAN.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_node2_2_c_a_n_8c.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Node2/main.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_node2_2main_8c.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Node2/PWM.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_w_m_8h.html",tooltip="Header file for the PWM. "];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Node2/PLAY_GAME.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_l_a_y___g_a_m_e_8c.html",tooltip="C-file for playing the Ping-Pong game. "];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Node2/PWM.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_w_m_8c.html",tooltip="c-file for the PWM "];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Node2/PID.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_i_d_8h.html",tooltip="Header-file for creating and using a PID-controller on the motor movement. "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Node2/motor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$motor_8h.html",tooltip="Header-file for controlling the speed of the motor. "];
+  Node8 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Node2/motor.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$motor_8c.html",tooltip="c-file for controlling the speed of the motor "];
+  Node8 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Node2/PID.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_i_d_8c.html",tooltip="C-file for creating and using a PID-controller on the motor movement. "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Node2/solenoid.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$solenoid_8h.html",tooltip="Header-file for controlling the solenoid. "];
+  Node11 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Node2/solenoid.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$solenoid_8c.html",tooltip="c-file for controlling the solenoid. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

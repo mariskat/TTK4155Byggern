@@ -1,0 +1,16 @@
+digraph "Node2/PID.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Node2/PID.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Node2/motor.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$motor_8h.html",tooltip="Header-file for controlling the speed of the motor. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Node2/main.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_node2_2main_8c.html"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Node2/motor.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$motor_8c.html",tooltip="c-file for controlling the speed of the motor "];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Node2/PLAY_GAME.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_l_a_y___g_a_m_e_8c.html",tooltip="C-file for playing the Ping-Pong game. "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Node2/PID.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_p_i_d_8c.html",tooltip="C-file for creating and using a PID-controller on the motor movement. "];
+}
