@@ -1,4 +1,4 @@
-# [TTK4155 Embedded andIndustrial Computer Systems Design](https://www.ntnu.edu/studies/courses/TTK4155#tab=omEmnet)
+# [TTK4155 Embedded and Industrial Computer Systems Design](https://www.ntnu.edu/studies/courses/TTK4155#tab=omEmnet)
 
 **Course content:**
 Design of embedded computer systems. Computer architectures and system components for embedded and 
